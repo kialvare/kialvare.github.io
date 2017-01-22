@@ -1,7 +1,11 @@
 body {
 	color: #ffffff;
-	background: #202020 url(~/Desktop/coast/unitedstates.png) no-repeat top center fixed;
-/*	background-size: cover; */
+	background: #202020 url(~/Desktop/coast/unitedstates.png) no-repeat fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
 }
 
 .image {

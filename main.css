@@ -1,14 +1,33 @@
-body {
- 	width: 100%;
- 	height: 100%;
- 	margin: 0px;
- 	padding: 0px;
+.logo-container {
+	margin-top: 10px;
+	margin-left: 18px;
 }
 
-.imgElem {
-	 width: 100%;
- 	height: 100%;
-	background: url('unitedstates.png');
-	background-repeat: no-repeat;
-	background-size: cover;
+#logo-1 {
+	font-family: 'Raleway', Helvetica;
+	font-weight: lighter;
+}
+
+#logo-2 {
+	font-family: 'Raleway', Helvetica;
+	font-weight: lighter;
+	margin-top: -25px;
+}
+
+.nav-container {
+	height: 760px;
+	margin-top: 0px;
+	top: 0px;
+	overflow: visible;
+}
+
+.menu {
+	list-style-type: none;
+}
+
+.menu-nav {
+	height: 578px;
+	overflow: hidden;
+	padding: 0px;
+	width: 210px;
 }

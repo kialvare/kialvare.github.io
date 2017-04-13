@@ -3,16 +3,18 @@
 	margin-left: 18px;
 }
 
-#logo-1 {
+.logo-1 {
 	font-family: 'Raleway', Helvetica;
 	font-weight: lighter;
+	display: block;
+	text-align: center;
 }
 
-#logo-2 {
+/*#logo-2 {
 	font-family: 'Raleway', Helvetica;
 	font-weight: lighter;
 	margin-top: -25px;
-}
+}*/
 
 .nav-container {
 	height: 760px;
@@ -23,6 +25,7 @@
 
 .menu {
 	list-style-type: none;
+	text-align: center;
 }
 
 .menu-nav {
@@ -30,4 +33,15 @@
 	overflow: hidden;
 	padding: 0px;
 	width: 210px;
+}
+
+.item {
+	font-family: "Open Sans";
+}
+
+.undercons {
+	width: 1000px;
+	height: 600px;
+	margin: auto;
+	display: block;
 }

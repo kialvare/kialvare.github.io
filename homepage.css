@@ -1,47 +1,36 @@
-.logo-container {
-	margin-top: 10px;
-	margin-left: 18px;
+html{height:100%;}
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,700');
+body {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #DFFAFF;
 }
 
-.logo-1 {
-	font-family: 'Raleway', Helvetica;
-	font-weight: lighter;
-	display: block;
-	text-align: center;
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
-/*#logo-2 {
-	font-family: 'Raleway', Helvetica;
-	font-weight: lighter;
-	margin-top: -25px;
-}*/
-
-.nav-container {
-	height: 760px;
-	margin-top: 0px;
-	top: 0px;
-	overflow: visible;
+.main {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
 }
 
-.menu {
-	list-style-type: none;
-	text-align: center;
+.home {
+  width: 10%;
+  height: 10%;
 }
 
-.menu-nav {
-	height: 578px;
-	overflow: hidden;
-	padding: 0px;
-	width: 210px;
-}
-
-.item {
-	font-family: "Open Sans";
-}
-
-.undercons {
-	width: 1000px;
-	height: 600px;
-	margin: auto;
-	display: block;
+.name {
+  display: flex;
+  justify-content: center;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  font-size: 70px;
+  color: #0097B2;
 }

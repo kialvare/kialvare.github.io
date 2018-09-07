@@ -1,51 +1,294 @@
-<html>
+<!DOCTYPE html>
+<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 8)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
 <head>
-	<meta charset="utf-8">
-	<link href="homepage1.css" rel="stylesheet" type="text/css" />
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-	<script src="//code.jquery.com/jquery-1.10.2.js"></script>
-    <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+
+   <!--- Basic Page Needs
+   ================================================== -->
+   <meta charset="utf-8">
+	<title>Kim Alvarez</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+   <!-- Mobile Specific Metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+    ================================================== -->
+   <link rel="stylesheet" href="css/default.css">
+	<link rel="stylesheet" href="css/layout.css">
+   <link rel="stylesheet" href="css/media-queries.css">
+
+   <!-- Script
+   ================================================== -->
+	<script src="js/modernizr.js"></script>
+
+   <!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="favicon.ico" > 
+
 </head>
+
 <body>
-	<div class="nav">
-		<div class="nav-container">
-			<div class="nav-container-top">
-				<h1 id="mainLogo">Kim Alvarez</h1>
-			</div>
-		</div>
-		<div class="menu_wrap collapsable">
-			<ul>
-				<li class="item">
-					<a href="index.html">Home</a>
-				</li>
-				<li class="item">
-					<a href="about.html">About</a>
-				</li>
-				<li class="item">
-					<a href="portfolio.html">Portfolio</a>
-				</li>
-			</ul>
-		</div>
-	</div>
-	<div class="undercons">
-		<img src="save-new.jpg" class="undercons" alt="sfmoma">
-	</div>
-	<div class="mainLogo">
-		<p>Currently under construction!</p>
-	</div>
-<!-- 	<div class="nav-container">
-		<div class="menu-nav">
-			<div class="logo-container">
-				<a href="index.html"><h1 id="logo-1">Kim Alvarez</h1></a>
-			</div>
-			<nav>
-				<ul class="menu">
-					<li class="item">Photography</li>
-					<li class="item">Design</li>
-					<li class="item">Programming</li>
-				</ul>
-			</nav>
-		</div>
-	</div> -->
+
+   <!-- Header
+   ================================================== -->
+   <header>
+
+      <div class="row">
+
+         <div class="twelve columns">
+
+            <div class="logo">
+               <a href="index.html"><img alt="" src="images/logo.png"></a>
+            </div>
+
+            <nav id="nav-wrap">
+
+               <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+	            <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+
+               <ul id="nav" class="nav">
+
+                 <li class="current"><a href="index.html">HOME</a></li>
+                 <li><a href="about.html">ABOUT</a></li>
+                 <li><span><a href="portfolio-index.html">PORTFOLIO</a></span>
+                  <ul>
+                     <li><a href="portfolio-index.html">Portfolio Index</a></li>
+                     <li><a href="portfolio.html">Portfolio Entry</a></li>
+                  </ul>
+                 </li>
+	              <!--Add Blog Link Here-->
+                 <li><a href="contact.html">CONTACT</a></li>
+                 <li><a href="styles.html">FEATURES</a></li>
+
+               </ul> <!-- end #nav -->
+
+            </nav> <!-- end #nav-wrap -->
+
+         </div>
+
+      </div>
+
+   </header> <!-- Header End -->
+
+   <!-- Intro Section
+   ================================================== -->
+   <section id="intro">
+
+   </section> <!-- Intro Section End-->
+
+   <!-- Info Section
+   ================================================== -->
+   <section id="info">
+
+      <div class="row">
+
+         <div class="bgrid-quarters s-bgrid-halves">
+
+           <div>
+              <h4 class="align-left">Hi, I'm Kim.</h4>
+
+              <p class="align-left">Visual Designer / Marketing / Coding
+              </p>
+           </div>
+
+           </div>
+
+      </div>
+
+   </section> <!-- Info Section End-->
+
+   <!-- Works Section
+   ================================================== -->
+   <section id="works">
+
+      <div class="row">
+
+         <div class="twelve columns align-center">
+            <h1>Portfolio</h1>
+         </div>
+
+         <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-halves">
+
+    		   <div class="columns portfolio-item">
+               <div class="item-wrap">
+    				   <a href="portfolio.html">
+                     <img alt="" src="images/portfolio/geometrics.jpg">
+                     <div class="overlay"></div>
+                     <div class="link-icon"><i class="fa fa-link"></i></div>
+                  </a>
+    					<div class="portfolio-item-meta">
+    					   <h5><a href="portfolio.html">Geometrics</a></h5>
+                     <p>Illustration</p>
+    					</div>
+               </div>
+    			</div>
+
+            <div class="columns portfolio-item">
+               <div class="item-wrap">
+    				   <a href="portfolio.html">
+                     <img alt="" src="images/portfolio/console.jpg">
+                     <div class="overlay"></div>
+                     <div class="link-icon"><i class="fa fa-link"></i></div>
+                  </a>
+    					<div class="portfolio-item-meta">
+    					   <h5><a href="portfolio.html">Console</a></h5>
+                     <p>Web Development</p>
+    					</div>
+               </div>
+    			</div>
+
+            <div class="columns portfolio-item s-first">
+               <div class="item-wrap">
+    				   <a href="portfolio.html">
+                     <img alt="" src="images/portfolio/camera-man.jpg">
+                     <div class="overlay"></div>
+                     <div class="link-icon"><i class="fa fa-link"></i></div>
+                  </a>
+    					<div class="portfolio-item-meta">
+    					   <h5><a href="portfolio.html">Camera Man</a></h5>
+                     <p>Photography</p>
+    					</div>
+               </div>
+    			</div>
+
+            <div class="columns portfolio-item">
+               <div class="item-wrap">
+    				   <a href="portfolio.html">
+                     <img alt="" src="images/portfolio/into-the-light.jpg">
+                     <div class="overlay"></div>
+                     <div class="link-icon"><i class="fa fa-link"></i></div>
+                  </a>
+    					<div class="portfolio-item-meta">
+    					   <h5><a href="portfolio.html">Into The Light</a></h5>
+                     <p>Branding</p>
+    					</div>
+               </div>
+    			</div>
+
+         </div>
+
+      </div>
+
+   </section> <!-- Works Section End-->
+
+   <!-- JOURNAL BELOW HERE -->
+
+   <!-- Call-To-Action Section
+   ================================================== -->
+   <section id="call-to-action">
+
+      <div class="row">
+
+         <div class="eight columns offset-1">
+
+            <h1><a href="blog-single.html">Voluptate Velit Esse</a><a href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT">.</a></h1>
+            <p>Ducimus qui blanditiis praesentium voluptatum
+            deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate<!-- Simply type	the promocode in the box labeled “Promo Code” when placing your order. -->. </p>
+
+         </div>
+
+         <div class="three columns action">
+
+            
+
+         </div>
+
+      </div>
+
+   </section> <!-- Call-To-Action Section End-->
+
+   <!-- Tweets Section
+   ================================================== -->
+   <section id="tweets">
+
+      <div class="row">
+
+         <div class="tweeter-icon align-center">
+            <i class="fa fa-twitter"></i>
+         </div>
+
+         <ul id="twitter" class="align-center">
+            <li>
+               <span>
+               This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
+               Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum
+               <a href="#">http://t.co/CGIrdxIlI3</a>
+               </span>
+               <b><a href="#">2 Days Ago</a></b>
+            </li>
+            <!--
+            <li>
+               <span>
+               This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
+               Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum
+               <a href="#">http://t.co/CGIrdxIlI3</a>
+               </span>
+               <b><a href="#">3 Days Ago</a></b>
+            </li>
+            -->
+         </ul>
+
+         <p class="align-center"><a href="#" class="button">Follow us</a></p>
+
+      </div>
+
+   </section> <!-- Tweet Section End-->
+
+
+
+   <!-- footer
+   ================================================== -->
+   <footer>
+
+      <div class="row">
+
+         <div class="twelve columns">
+
+            <ul class="footer-nav">
+					<li><a href="index.html">Home.</a></li>
+              	<li><a href="blog.html">Blog.</a></li>
+              	<li><a href="portfolio-index.html">Portfolio.</a></li>
+              	<li><a href="about.html">About.</a></li>
+              	<li><a href="contact.html">Contact.</a></li>
+               <li><a href="styles.html">Features.</a></li>
+			   </ul>
+
+            <ul class="footer-social">
+               <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+               <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+               <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+               <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+               <li><a href="#"><i class="fa fa-skype"></i></a></li>
+               <li><a href="#"><i class="fa fa-rss"></i></a></li>
+            </ul>
+
+            <ul class="copyright">
+               <li>&copy; Kim Alvarez</li> 
+               <li>Design by <a href="http://www.styleshout.com/" target="_blank">Styleshout</a></li>               
+            </ul>
+
+         </div>
+
+         <div id="go-top" style="display: block;"><a title="Back to Top" href="#">Go To Top</a></div>
+
+      </div>
+
+   </footer> <!-- Footer End-->
+
+   <!-- Java Script
+   ================================================== -->
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+   <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
+   <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+
+   <script src="js/jquery.flexslider.js"></script>
+   <script src="js/doubletaptogo.js"></script>
+   <script src="js/init.js"></script>
+
 </body>
-</html
+
+</html>
